@@ -1,11 +1,11 @@
 export const config = {
   site: {
-    title: "Nextjs Blog Template",
-    name: "Nextjs Blog Template",
-    description: "Nextjs Blog Template",
-    keywords: ["Nextjs Blog Template", "AI", "Full Stack Developer"],
-    url: "https://xxx.com",
-    baseUrl: "https://xxx.com",
+    title: "Jiyong的博客",
+    name: "Jiyong的博客",
+    description: "学习、生活、记录",
+    keywords: ["Jiyong", "AI", "Full Stack Developer"],
+    url: "https://jiyong.me",
+    baseUrl: "https://jiyong.me",
     image: "https://xxx.com/og-image.png",
     favicon: {
       ico: "/favicon.ico",
@@ -15,7 +15,7 @@ export const config = {
     },
     manifest: "/site.webmanifest",
     rss: {
-      title: "Nextjs Blog Template",
+      title: "Jiyong的博客",
       description: "Thoughts on Full-stack development, AI",
       feedLinks: {
         rss2: "/rss.xml",
@@ -25,14 +25,14 @@ export const config = {
     },
   },
   author: {
-    name: "Your Name",
-    email: "your.email@example.com",
-    bio: "这是一个 Nextjs 博客模板",
+    name: "Jiyong",
+    email: "qu#jiyong.me",
+    bio: "这是Jiyong的博客",
   },
   social: {
-    github: "https://github.com/xxx",
-    x: "https://x.com/xxx",
-    xiaohongshu: "https://www.xiaohongshu.com/user/profile/xxx",
+    github: "https://github.com/jiyong",
+    x: "https://x.com/jiyong_me",
+    xiaohongshu: "https://www.xiaohongshu.com/user/profile/5f670aac000000000100bcf5",
     wechat: "https://storage.xxx.com/images/wechat-official-account.png",
     buyMeACoffee: "https://www.buymeacoffee.com/xxx",
   },
@@ -50,7 +50,7 @@ export const config = {
     ],
   },
   seo: {
-    metadataBase: new URL("https://xxx.com"),
+    metadataBase: new URL("https://jiyong.me"),
     alternates: {
       canonical: './',
     },
