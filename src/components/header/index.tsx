@@ -9,7 +9,6 @@ import XIcon from "@/components/icons/x";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { SquareTerminal } from "lucide-react";
 import { config } from "@/lib/config";
 
 export function Header() {
