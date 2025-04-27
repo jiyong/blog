@@ -1,11 +1,11 @@
-import { allBlogs } from "content-collections";
+import { allBlogs, allBooks } from "content-collections";
 import Link from "next/link";
 import count from 'word-count'
 import { config } from "@/lib/config";
 import { formatDate } from "@/lib/utils";
 
 export default function Home() {
-  const blogs = allBlogs
+  const blogs = [...allBlogs, ...allBooks]
     .filter((blog: any) => blog.featured === true)
     .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
@@ -25,7 +25,7 @@ export default function Home() {
     <div className="max-w-3xl mx-auto px-4 py-8">
       {/* 个人介绍部分 */}
       <div className="mb-16 space-y-4">
-        <h1 className="text-4xl font-bold">{config.site.title}</h1>
+        <h1 className="text-4xl font-bold">{config.author.name}</h1>
         <p className="text-md text-gray-600">{config.author.bio}</p>
         
         {/* 社交链接 - 仅当有链接时才显示 */}
@@ -48,7 +48,7 @@ export default function Home() {
         <div className="space-y-8">
           {blogs.map((blog: any) => (
             <article key={blog.slug} className="">
-              <Link href={`/blog/${blog.slug}`}>
+              <Link href={`/${blog.category ? blog.category : 'blog'}/${blog.slug}`}>
                 <div className="flex flex-col space-y-2">
                   <div className="flex items-center justify-between">
                     <h2 className="text-xl font-semibold underline underline-offset-4">

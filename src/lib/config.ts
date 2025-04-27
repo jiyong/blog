@@ -1,7 +1,7 @@
 export const config = {
   site: {
     title: "Jiyong的博客",
-    name: "Jiyong的博客",
+    name: "骐骥一跃，不能十步；驽马十驾，功在不舍",
     description: "学习、生活、记录",
     keywords: ["Jiyong", "AI", "Full Stack Developer"],
     url: "https://jiyong.me",
@@ -27,25 +27,28 @@ export const config = {
   author: {
     name: "Jiyong",
     email: "qu#jiyong.me",
-    bio: "这是Jiyong的博客",
+    bio: "骐骥一跃，不能十步；驽马十驾，功在不舍",
   },
   social: {
     github: "https://github.com/jiyong",
     x: "https://x.com/jiyong_me",
     xiaohongshu: "https://www.xiaohongshu.com/user/profile/5f670aac000000000100bcf5",
     wechat: "https://storage.xxx.com/images/wechat-official-account.png",
-    buyMeACoffee: "https://www.buymeacoffee.com/xxx",
+    // buyMeACoffee: "https://www.buymeacoffee.com/xxx",
   },
   giscus: {
-    repo: "guangzhengli/hugo-ladder-exampleSite",
-    repoId: "R_kgDOHyVOjg",
-    categoryId: "DIC_kwDOHyVOjs4CQsH7",
+    repo: "jiyong/blog",
+    repoId: "R_kgDOOfaTAQ",
+    categoryId: "DIC_kwDOOfaTAc4Cpgwm",
   },
   navigation: {
     main: [
       { 
         title: "文章", 
         href: "/blog",
+      },{ 
+        title: "读书", 
+        href: "/book",
       },
     ],
   },

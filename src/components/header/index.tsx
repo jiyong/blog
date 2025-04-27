@@ -28,6 +28,8 @@ export function Header() {
     }))
     .filter(link => !!link.href);
 
+  const title = config.site.title;
+
   return (
     <header className="pt-4">
       <motion.div
@@ -41,7 +43,8 @@ export function Header() {
 
         {/* Logo */}
         <Link href="/" title="Home" className="flex items-center gap-4 md:order-first">
-          <SquareTerminal className="w-10 h-10" />
+          {/* <SquareTerminal className="w-10 h-10" /> */}
+          <h1 className="text-2xl font-bold">{ title }</h1>
         </Link>
 
         {/* Desktop navigation */}
