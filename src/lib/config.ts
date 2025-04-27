@@ -33,7 +33,7 @@ export const config = {
     github: "https://github.com/jiyong",
     x: "https://x.com/jiyong_me",
     xiaohongshu: "https://www.xiaohongshu.com/user/profile/5f670aac000000000100bcf5",
-    wechat: "https://storage.xxx.com/images/wechat-official-account.png",
+    wechat: "https://github.com/jiyong/blog/blob/main/public/qrcode_for_gh_c0b057597eaa_258.jpg",
     // buyMeACoffee: "https://www.buymeacoffee.com/xxx",
   },
   giscus: {
